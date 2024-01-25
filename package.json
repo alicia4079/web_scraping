@@ -1,0 +1,23 @@
+{
+  "name": "proyecto9_scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "scrap": "node ./src/utils/scrapperLauncher.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "puppeteer": "^21.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
